@@ -1,5 +1,5 @@
-public class Student3 {
-    
+public class Student2 {
+
     public static class Student {
         int age;
         String name;
@@ -12,9 +12,6 @@ public class Student3 {
     
     public static void swap(Student s1, Student s2)
     {
-        s1 = new Student();
-        s2 = new Student();
-
         int age = s1.age;
         s1.age = s2.age;
         s2.age = age;
@@ -46,3 +43,16 @@ public class Student3 {
     }
     
 }
+
+/* In this case swap hoga bcoz abhi vo swap method m object ki properties ko swap kar rha h jo heap m stored hoga so when swap method 
+stack se pop hoga toh heap m changes hua hai toh use jab hm main se access krenge toh vo changes reflect honge
+ */
+
+/* Output is 
+A10
+B20
+B20
+A10
+ */
+
+    

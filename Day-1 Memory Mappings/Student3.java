@@ -1,4 +1,4 @@
-public class Student4 {
+public class Student3 {
     
     public static class Student {
         int age;
@@ -12,7 +12,7 @@ public class Student4 {
     
     public static void swap(Student s1, Student s2)
     {
-        
+        s1 = new Student();
         s2 = new Student();
 
         int age = s1.age;
@@ -21,9 +21,8 @@ public class Student4 {
 
         String temp = s1.name;
         s1.name = s2.name;
-        s2.name = temp;
+        s2.name = temp; 
 
-        s1 = new Student();
     }
 
     public static void main(String[] args)
@@ -45,5 +44,16 @@ public class Student4 {
         s2.announceYourSelf();
         
     }
-        
+    
 }
+
+/* Swap Nahi hoga bcoz swap method m aate hi hmne object ka references ko new kr diya so vo abhi kisi aur location ko point kar rhe h 
+Heap m jha par by default 0 for age and null for name hoga for both objects and unka swapping hone se kuch nhi hoga and then jab swap
+method stack se pop hoga toh hm main se original s1 and s2 print kar denge */
+
+/* Output is 
+A10
+B20
+A10
+B20
+ */
