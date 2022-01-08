@@ -1,5 +1,4 @@
-public class Student4 {
-    
+public class Student5 {
     public static class Student {
         int age;
         String name;
@@ -13,7 +12,7 @@ public class Student4 {
     public static void swap(Student s1, Student s2)
     {
         
-        s2 = new Student();
+        s1 = new Student();
 
         int age = s1.age;
         s1.age = s2.age;
@@ -23,7 +22,7 @@ public class Student4 {
         s1.name = s2.name;
         s2.name = temp;
 
-        s1 = new Student();
+        s2 = new Student();
     }
 
     public static void main(String[] args)
@@ -45,5 +44,6 @@ public class Student4 {
         s2.announceYourSelf();
         
     }
-        
+
+    
 }
