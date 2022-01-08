@@ -47,3 +47,12 @@ public class Student5 {
 
     
 }
+
+/* Iss Case m bhi swap hoga lekin result is bit different bcoz values swap krne par usme original reference tha and then string se phle s1 new location ko poingt krne lga and fir hmne string swap kiya last m s2 kisi or location ko poingt kr rha h jiska koi bhi impact nhi hua */
+
+/* Output is
+A[10]
+B[20]
+A[20]
+null[10]
+ */

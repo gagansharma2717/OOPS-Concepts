@@ -46,3 +46,14 @@ public class Student3 {
     }
     
 }
+
+/* Swap Nahi hoga bcoz swap method m aate hi hmne object ka references ko new kr diya so vo abhi kisi aur location ko point kar rhe h 
+Heap m jha par by default 0 for age and null for name hoga for both objects and unka swapping hone se kuch nhi hoga and then jab swap
+method stack se pop hoga toh hm main se original s1 and s2 print kar denge */
+
+/* Output is 
+A10
+B20
+A10
+B20
+ */

@@ -44,5 +44,15 @@ public class Student2 {
     
 }
 
-    
+/* In this case swap hoga bcoz abhi vo swap method m object ki properties ko swap kar rha h jo heap m stored hoga so when swap method 
+stack se pop hoga toh heap m changes hua hai toh use jab hm main se access krenge toh vo changes reflect honge
+ */
+
+/* Output is 
+A10
+B20
+B20
+A10
+ */
+
     

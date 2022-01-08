@@ -47,3 +47,11 @@ public class Student4 {
     }
         
 }
+
+/* Swap hoga lekin hmne swap m aate m swap ko new kr diya so it is pointing to some another location in heap jha pr 0 and null stored h and s1 ka reference is same as main and hm values m change kr rhe hai toh 0,Null and s1 ki original values i.e. 10,A m swap hoga and then hmne s1 ko new krke usko new location ko point kr diya uska kuch bhi impact nhi hoga and swap stack pop krne pr result hoga */
+/*
+    A10
+    B20
+    Null0
+    A10
+ */
