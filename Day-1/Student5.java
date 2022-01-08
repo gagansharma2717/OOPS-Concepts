@@ -12,12 +12,12 @@ public class Student5 {
     public static void swap(Student s1, Student s2)
     {
         
-        s1 = new Student();
-
         int age = s1.age;
         s1.age = s2.age;
         s2.age = age;
 
+        s1 = new Student();
+        
         String temp = s1.name;
         s1.name = s2.name;
         s2.name = temp;
